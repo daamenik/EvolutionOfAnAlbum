@@ -83,13 +83,17 @@ const earlyBirdArtifacts = [
     },
     {
         "type" : artifactTypes.VIDEO,
-        // "date" : "4/21/69",
-        "description" : "A very cool video.",
-        "filename" : "../videos/early_bird/sample_video.mp4",
+        "description" : "Dom recording some of the guitar parts with great enthusiasm.",
+        "filename" : "early bird gtr.m4v",
     },
 ]
 
 const instagramArtifacts = [
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "Ben's original Instagram reel from which this song was derived.",
+        "filename": "instagram_reel_1.mp4"
+    },
     {
         "type": artifactTypes.SOUND,
         "description": "The verse melody, originally pitched as a chorus, birthed from a drive in Dom's car.",
@@ -122,8 +126,23 @@ const instagramArtifacts = [
     },
     {
         "type": artifactTypes.SOUND,
+        "description": "A part Dom came up with to add to the chorus. This eventually was reduced to a background acoustic lick.",
+        "filename": "Instagram Duhnuh.mp3",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "The aforementioned guitar lick performed by Dom in Ben's basement.",
+        "filename": "duhnuh.m4v",
+    },
+    {
+        "type": artifactTypes.SOUND,
         "description": "A full chorus idea by Dom as a variation of Ben's session above.",
         "filename": "Instagram Chorus Idea.mp3",
+    },
+    {
+        "type": artifactTypes.SOUND,
+        "description": "An idea for the instrumental breakdown after the intro, dictated by Dom on his way to a bar.",
+        "filename": "Instagram Note.mp3",
     },
     {
         "type": artifactTypes.SOUND,
@@ -205,13 +224,13 @@ function loadArtifacts(song) {
     var artifacts = []
     if (song === songs.EARLY_BIRD) {
         artifacts = earlyBirdArtifacts;
-        filepath = "../sounds/early_bird/";
+        filepath = "early_bird/";
     } else if (song === songs.INSTAGRAM) {
         artifacts = instagramArtifacts;
-        filepath = "../sounds/instagram/";
+        filepath = "instagram/";
     } else if (song === songs.SYNTHETIC_COMPANY) {
         artifacts = syntheticCompanyArtifacts;
-        filepath = "../sounds/synthetic_company/";
+        filepath = "synthetic_company/";
     } else {
         alert('what')
     }
@@ -221,9 +240,9 @@ function loadArtifacts(song) {
         var desc = $('<p></p>').text(artifact.description);
         var file = "";
         if (artifact.type === artifactTypes.SOUND) {
-            file = "<audio controls><source src=\"" + filepath + artifact.filename + "\" type=\"audio/mpeg\"></audio>";
+            file = "<audio controls><source src=\"../sounds/" + filepath + artifact.filename + "\" type=\"audio/mpeg\"></audio>";
         } else {
-            file = "<video controls><source src=\"" + artifact.filename + "\" type=\"video/mp4\"></video>";
+            file = "<video controls><source src=\"../videos/" + filepath + artifact.filename + "\" type=\"video/mp4\"></video>";
         }
 
         // TODO: change class based on order on the page
