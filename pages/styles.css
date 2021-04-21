@@ -1,5 +1,7 @@
 video {
-    height: 35em;
+    /* height: 20em; */
+    max-width: 100%;
+    max-height: 35em;
 }
 
 html, body {
@@ -7,9 +9,8 @@ html, body {
 }
 
 html {
-    /* margin: auto;
-    display: table;
-    margin: auto; */
+    margin: auto;
+    display: table; 
 }
 
 body {
@@ -19,6 +20,14 @@ body {
     max-width: 800px;
 }
 
-.tr {
-    display: table-row;
+#artifact-container > div {
+    margin-bottom: 5em;
+}
+
+.artifact-left {
+    text-align: left;
+}
+
+.artifact-right {
+    text-align: right;
 }
