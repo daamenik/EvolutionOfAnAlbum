@@ -92,7 +92,7 @@ const instagramArtifacts = [
     {
         "type": artifactTypes.VIDEO,
         "description": "Ben's original Instagram reel from which this song was derived.",
-        "filename": "instagram_reel_1.mp4"
+        "filename": "yeet.mov"
     },
     {
         "type": artifactTypes.SOUND,
@@ -217,6 +217,11 @@ const syntheticCompanyArtifacts = [
         "description": "Ben puts it all together in a piano MIDI file.",
         "filename": "case of u full piano.mp3",
     },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "We record Jonah Payne playing drums in the Bat Cave.",
+        "filename": "JonahDrums.m4v",
+    }
 ] 
 
 // takes in song variable (from songs dict)
@@ -246,7 +251,8 @@ function loadArtifacts(song) {
         }
 
         // TODO: change class based on order on the page
-        var artifactElement = $("<div></div>").append(desc, file);
+        // Each Artifact is of tr (table row) class so they are equally spaced
+        var artifactElement = $("<div class=\"tr\"></div>").append(desc, file);
 
         $("#artifact-container").append(artifactElement);
     }

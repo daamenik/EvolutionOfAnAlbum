@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Sugarpunch";
+    src: url('SugarpunchDEMO.otf');
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+head {
+    font-family: "Sugarpunch";
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Futura';
+}

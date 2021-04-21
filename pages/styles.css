@@ -1,3 +1,24 @@
+video {
+    height: 35em;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    /* margin: auto;
+    display: table;
+    margin: auto; */
+}
+
 body {
+    vertical-align: middle;
+    text-align: center;
     font-family: 'Futura';
+    max-width: 800px;
+}
+
+.tr {
+    display: table-row;
 }
