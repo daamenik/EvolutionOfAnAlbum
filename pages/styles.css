@@ -1,19 +1,20 @@
+@font-face {
+    font-family: "Sugarpunch";
+    src: url('sugarpunchdemo.otf');
+}
+
 video {
-    /* height: 20em; */
     max-width: 100%;
     max-height: 35em;
 }
 
-html, body {
-    height: 100%;
-}
-
-html {
-    margin: auto;
-    display: table; 
+h1 {
+    padding: 1em 0 0 0;
+    font-family: "Sugarpunch";
 }
 
 body {
+    margin: auto;
     vertical-align: middle;
     text-align: center;
     font-family: 'Futura';
@@ -34,4 +35,18 @@ body {
 
 .artifact-right {
     text-align: right;
+}
+
+.date {
+    padding: 10px 20px;
+    color: white;
+    box-shadow: 3px 3px 5px grey;
+}
+
+.artifact-left .date {
+    background-color: #1d562b;
+}
+
+.artifact-right .date {
+    background-color: #0f25d0;
 }

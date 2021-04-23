@@ -284,7 +284,7 @@ function loadArtifacts(song) {
 
     let i = 0;
     for (const artifact of artifacts) {
-        var heading = $('<h3></h3>').text(artifact.date);
+        var heading = "<h3><span class=\"date\">" + artifact.date + "</span></h3>";
         var desc = $('<p></p>').text(artifact.description);
         var file = "";
         if (artifact.type === artifactTypes.SOUND) {
