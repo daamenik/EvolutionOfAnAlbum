@@ -102,6 +102,12 @@ const earlyBirdArtifacts = [
         "filename": "Early Bird Demo 2.mp3",
         "date": "3-22-21",
     },
+    {
+        "type": artifactTypes.SOUND,
+        "description": "Further along in the process. The tempo is slowed from 107 bpm to 100 bpm, and more production is added.",
+        "filename": "early bird 100 with drummer.mp3",
+        "date": "4-23-21",
+    }
 ]
 
 const instagramArtifacts = [
@@ -176,6 +182,12 @@ const instagramArtifacts = [
         "description": "A humorous demo of the song, recorded with lyrics involving a Farklezaar concert at The Bay skate park which, unbeknownst to either of them, Ben and Dom both attended at the same time.",
         "filename": "the bay FINAL.mp3",
         "date": "4-16-21",
+    },
+    {
+        "type": artifactTypes.SOUND,
+        "description": "An initial mix of the song with real lyrics, as well as drums by Jonah Payne.",
+        "filename": "Instagrammix 1.mp3",
+        "date": "4-23-21",
     },
 ]
 
@@ -263,7 +275,13 @@ const syntheticCompanyArtifacts = [
         "description": "We record Jonah Payne playing drums in the Bat Cave.",
         "filename": "JonahDrums.m4v",
         "date": "4-20-21",
-    }
+    },
+    {
+        "type": artifactTypes.SOUND,
+        "description": "An initial mix of the full song. Done in Ben's basement on a Kickstart-fueled night/morning.",
+        "filename": "synthetic company mix 1.mp3",
+        "date": "4-21-21",
+    },
 ] 
 
 // takes in song enum (from songs dict)
