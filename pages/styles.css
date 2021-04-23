@@ -20,6 +20,10 @@ body {
     max-width: 800px;
 }
 
+#artifact-container {
+    padding-bottom: 5em;
+}
+
 #artifact-container > div {
     margin-bottom: 5em;
 }
