@@ -2,6 +2,7 @@
 const artifactTypes = {
     SOUND: 0,
     VIDEO: 1,
+    IMAGE: 2,
 }
 
 const songs = {
@@ -353,6 +354,18 @@ const syntheticCompanyArtifacts = [
 
 const miscArtifacts = [
     {
+        "type": artifactTypes.IMAGE,
+        "description": "The O St. Studio, next to Levi Hagen's apartment.",
+        "filename": "o street studio.JPG",
+        "date": "Studio No. 1",
+    },
+    {
+        "type": artifactTypes.IMAGE,
+        "description": "The Ben Stu-dio, inside Ben's parents' basement.",
+        "filename": "ben studio.JPG",
+        "date": "Studio No. 2",
+    },
+    {
         "type": artifactTypes.VIDEO,
         "description": "We are interrupted in the O Street Studio by a neighboring Metal band practicing. Dom plays along.",
         "filename": "death metal.m4v",
@@ -404,7 +417,7 @@ function loadArtifacts(song) {
             file = "<video controls><source src=\"../videos/" + filepath + artifact.filename + "\" type=\"video/mp4\"></video>";
         }
         else {
-            file = "<video controls><source src=\"../videos/" + filepath + artifact.filename + "\" type=\"video/mp4\"></video>";
+            file = "<img src=\"../images/" + filepath + artifact.filename + "\">";
         }
 
         // changes alignment based on order on the page
