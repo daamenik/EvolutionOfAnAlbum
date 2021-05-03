@@ -13,6 +13,10 @@ h1 {
     font-family: "Sugarpunch";
 }
 
+h2 {
+    font-family: "Sugarpunch";
+}
+
 body {
     margin: auto;
     vertical-align: middle;
@@ -25,8 +29,14 @@ body {
     padding: 2em 0em;
 }
 
+#final-song {
+    padding: 1em 0em;
+}
+
 #lyrics {
-    column-count: 2;
+    column-count: 3;
+    text-align: left;
+    display: inline-block;
 }
 
 #artifact-container {
