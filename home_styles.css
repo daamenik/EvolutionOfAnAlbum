@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Sugarpunch";
+    src: url('sugarpunchdemo.otf');
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    background-image: url('../images/heardtheblastbackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: table;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Sugarpunch";
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Futura';
+}
