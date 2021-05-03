@@ -8,6 +8,7 @@ const songs = {
     EARLY_BIRD: 0,
     INSTAGRAM: 1,
     SYNTHETIC_COMPANY: 2,
+    MISC: 3,
 }
 
 // artifacts for the songs
@@ -107,7 +108,25 @@ const earlyBirdArtifacts = [
         "description": "Further along in the process. The tempo is slowed from 107 bpm to 100 bpm, and more production is added.",
         "filename": "early bird 100 with drummer.mp3",
         "date": "4-23-21",
-    }
+    },
+    {
+        "type" : artifactTypes.VIDEO,
+        "description" : "Our friend Hunter Arias helps us record drums.",
+        "filename" : "hunter early bird drums.MOV",
+        "date": "5-2-21",
+    },
+    {
+        "type" : artifactTypes.VIDEO,
+        "description" : "Dom recording the bass part to Early Bird",
+        "filename" : "early bird bass.mov",
+        "date": "5-2-21",
+    },
+    {
+        "type" : artifactTypes.VIDEO,
+        "description" : "A delusional Dom mixes Early Bird at 5 AM on the day of our presentation.",
+        "filename" : "Dom mixing early bird.MOV",
+        "date": "5-2-21",
+    },
 ]
 
 const instagramArtifacts = [
@@ -160,10 +179,16 @@ const instagramArtifacts = [
         "date": "4-13-21",
     },
     {
+        "type": artifactTypes.SOUND,
+        "description": "An idea for the instrumental breakdown after the intro, dictated by Dom on his way to a bar.",
+        "filename": "Instagram Note.mp3",
+        "date": "4-13-21",
+    },
+    {
         "type": artifactTypes.VIDEO,
-        "description": "The aforementioned guitar lick performed by Dom in Ben's basement.",
-        "filename": "duhnuh.m4v",
-        "date": "4-16-21",
+        "description": "Ben records one of the first takes of Instagram's guitar part.",
+        "filename": "instagram guitar.MOV",
+        "date": "4-13-21",
     },
     {
         "type": artifactTypes.SOUND,
@@ -172,10 +197,16 @@ const instagramArtifacts = [
         "date": "4-15-21",
     },
     {
-        "type": artifactTypes.SOUND,
-        "description": "An idea for the instrumental breakdown after the intro, dictated by Dom on his way to a bar.",
-        "filename": "Instagram Note.mp3",
-        "date": "4-13-21",
+        "type": artifactTypes.VIDEO,
+        "description": "We record vocals for our inital meme version of Instagram, the Bay.",
+        "filename": "recording the bay vocals.MOV",
+        "date": "4-15-21",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "We listen back to the stupid song we made (full audio below).",
+        "filename": "laughing at the bay.MOV",
+        "date": "4-15-21",
     },
     {
         "type": artifactTypes.SOUND,
@@ -184,10 +215,28 @@ const instagramArtifacts = [
         "date": "4-16-21",
     },
     {
+        "type": artifactTypes.VIDEO,
+        "description": "The aforementioned guitar lick performed by Dom in Ben's basement.",
+        "filename": "duhnuh.m4v",
+        "date": "4-16-21",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "We record Jonah Payne playing drums for Instagram. We later decided to use MIDI drums instead.",
+        "filename": "bat cave instagram drums.MOV",
+        "date": "4-20-21",
+    },
+    {
         "type": artifactTypes.SOUND,
         "description": "An initial mix of the song with real lyrics, as well as drums by Jonah Payne.",
         "filename": "Instagrammix 1.mp3",
         "date": "4-23-21",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "Ben claps once in celebration, envisioning the luxurious lives he and Dom will live after these songs top the international charts.",
+        "filename": "clap studio.MOV",
+        "date": "4-29-21",
     },
 ]
 
@@ -241,6 +290,12 @@ const syntheticCompanyArtifacts = [
         "date": "4-8-21",
     },
     {
+        "type": artifactTypes.VIDEO,
+        "description": "Ben sings a scratch track for an initial melody idea. This melody was later scrapped.",
+        "filename": "early synthetic melody.MOV",
+        "date": "4-15-21",
+    },
+    {
         "type": artifactTypes.SOUND,
         "description": "Ben shows Dom some lovely chords he would like to incorporate into a song. These eventually become the bridge of Synthetic Company.",
         "filename": "Luv (sic) chords.mp3",
@@ -257,6 +312,12 @@ const syntheticCompanyArtifacts = [
         "description": "Dom feels that post-bridge the song is begging for a breakdown using the melody Ben has played on top of the chorus since the song's inception. He records this straining voice memo while in line at a Taco Bell drive-thru.",
         "filename": "Coy post-bridge breakdown.mp3",
         "date": "4-17-21",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "Ben and Dom sit outside and attempt to write lyrics for Instagram and Synthetic Company.",
+        "filename": "lyrics outside bens house.MOV",
+        "date": "4-18-21",
     },
     {
         "type": artifactTypes.SOUND,
@@ -277,12 +338,39 @@ const syntheticCompanyArtifacts = [
         "date": "4-20-21",
     },
     {
+        "type": artifactTypes.VIDEO,
+        "description": "Recording additional production for the bridge of Synthetic Company.",
+        "filename": "ben aux percussion synthetic.MOV",
+        "date": "4-21-21",
+    },
+    {
         "type": artifactTypes.SOUND,
         "description": "An initial mix of the full song. Done in Ben's basement on a Kickstart-fueled night/morning.",
         "filename": "synthetic company mix 1.mp3",
         "date": "4-21-21",
     },
 ] 
+
+const miscArtifacts = [
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "We are interrupted in the O Street Studio by a neighboring Metal band practicing. Dom plays along.",
+        "filename": "death metal.m4v",
+        "date": "3-28-21",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "Dom practices the accordion, considering whether it will fit in our pop songs. We found no room for accordion in the end.",
+        "filename": "accordion.m4v",
+        "date": "4-13-21",
+    },
+    {
+        "type": artifactTypes.VIDEO,
+        "description": "Ben also practices the accordion, his primary instrument.",
+        "filename": "ben accordion.MOV",
+        "date": "4-13-21",
+    },
+]
 
 // takes in song enum (from songs dict)
 function loadArtifacts(song) {
@@ -296,7 +384,12 @@ function loadArtifacts(song) {
     } else if (song === songs.SYNTHETIC_COMPANY) {
         artifacts = syntheticCompanyArtifacts;
         filepath = "synthetic_company/";
-    } else {
+    } 
+    else if (song === songs.MISC) {
+        artifacts = miscArtifacts;
+        filepath = "misc/";
+    }
+    else {
         alert('what')
     }
 
@@ -307,7 +400,10 @@ function loadArtifacts(song) {
         var file = "";
         if (artifact.type === artifactTypes.SOUND) {
             file = "<audio controls><source src=\"../sounds/" + filepath + artifact.filename + "\" type=\"audio/mpeg\"></audio>";
-        } else {
+        } else if (artifact.type === artifactTypes.VIDEO) {
+            file = "<video controls><source src=\"../videos/" + filepath + artifact.filename + "\" type=\"video/mp4\"></video>";
+        }
+        else {
             file = "<video controls><source src=\"../videos/" + filepath + artifact.filename + "\" type=\"video/mp4\"></video>";
         }
 

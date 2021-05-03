@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Sugarpunch";
-    src: url('../.fonts/sugarpunchdemo.otf');
+    src: url('./SugarpunchDEMO.otf');
 }
 
 video {
