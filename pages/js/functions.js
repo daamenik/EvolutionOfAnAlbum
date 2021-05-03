@@ -107,6 +107,12 @@ const earlyBirdArtifacts = [
         "description": "Further along in the process. The tempo is slowed from 107 bpm to 100 bpm, and more production is added.",
         "filename": "early bird 100 with drummer.mp3",
         "date": "4-23-21",
+    },
+    {
+        "type" : artifactTypes.VIDEO,
+        "description" : "Dom recording the bass part to Early Bird",
+        "filename" : "early bird bass.mov",
+        "date": "5-2-21",
     }
 ]
 
