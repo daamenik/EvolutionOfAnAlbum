@@ -125,7 +125,7 @@ const earlyBirdArtifacts = [
     {
         "type" : artifactTypes.VIDEO,
         "description" : "A delusional Dom mixes Early Bird at 5 AM on the day of our presentation.",
-        "filename" : "Dom mixing early bird.m4v",
+        "filename" : "dom mixing early bird.m4v",
         "date": "5-2-21",
     },
 ]
