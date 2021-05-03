@@ -119,7 +119,7 @@ const earlyBirdArtifacts = [
     {
         "type" : artifactTypes.VIDEO,
         "description" : "Dom recording the bass part to Early Bird",
-        "filename" : "early bird bass.mov",
+        "filename" : "early bird bass.MOV",
         "date": "5-2-21",
     },
     {
