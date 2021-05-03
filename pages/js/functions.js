@@ -119,13 +119,13 @@ const earlyBirdArtifacts = [
     {
         "type" : artifactTypes.VIDEO,
         "description" : "Dom recording the bass part to Early Bird",
-        "filename" : "early bird bass.MOV",
+        "filename" : "early bird bass.m4v",
         "date": "5-2-21",
     },
     {
         "type" : artifactTypes.VIDEO,
         "description" : "A delusional Dom mixes Early Bird at 5 AM on the day of our presentation.",
-        "filename" : "Dom mixing early bird.MOV",
+        "filename" : "Dom mixing early bird.m4v",
         "date": "5-2-21",
     },
 ]
@@ -287,7 +287,7 @@ const syntheticCompanyArtifacts = [
     {
         "type": artifactTypes.SOUND,
         "description": "Dom and Ben attempt to work out the song in an O St Studio session.",
-        "filename": "Coy Session 1 4-8-21.mp3",
+        "filename": "COY Session 1 4-8-21.mp3",
         "date": "4-8-21",
     },
     {
